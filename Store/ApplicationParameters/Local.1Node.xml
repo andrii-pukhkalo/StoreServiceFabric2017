@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/Store" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="Store.WebClient_InstanceCount" Value="1" />
+    <Parameter Name="Store.Gateway_InstanceCount" Value="1" />
+    <Parameter Name="Catalog.Service_InstanceCount" Value="1" />
+  </Parameters>
+</Application>
